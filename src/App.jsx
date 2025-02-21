@@ -8,7 +8,7 @@ import { HTML5Backend } from "react-dnd-html5-backend";
 import Menu from "./Menu";
 import ProjectList from "./Projects";
 import CompanyList from "./Company";
-import TaskTable from "./Pivot"; 
+import Pivot from "./Pivot"; 
 import TaskGraph from "./TaskGraph";
 import Kanban from "./Kanban";
 
