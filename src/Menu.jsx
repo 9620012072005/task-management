@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import PivotTable from "./pivot";
-import Graph from "./taskGraph";
+import PivotTable from "./Pivot";
+import Graph from "./TaskGraph";
 import Calendar from "./Calendar";
 import Kanban from "./Kanban";
 import List from "./List";
