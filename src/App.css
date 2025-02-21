@@ -1,0 +1,122 @@
+node_modules/gantt-schedule-timeline-calendar/dist/css/gantt-schedule-timeline-calendar.css
+
+#root {
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.table-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.status-table th,
+.status-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.status-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.status-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+/* hide scroll bar */
+/* Custom scrollbar style */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0;  /* Hides the scrollbar */
+  height: 0; /* Hides the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Hides the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent; /* Hides the thumb (scroll handle) */
+}
+/* Hover effect for progress bar */
+.progress-bar:hover {
+  background: linear-gradient(to right, #56CCF2, #2F80ED); /* Change to a different gradient or color on hover */
+  cursor: pointer; /* Change cursor to indicate the bar is interactive */
+  transform: scale(1.05); /* Slightly enlarge the bar on hover */
+}
+
+
+.chart-container-wrapper {
+  overflow-x: hidden; /* Hide scrollbar by default */
+  width: 100%;
+}
+
+.chart-container-wrapper:hover {
+  overflow-x: auto; /* Show scrollbar when hovering */
+}
+
+.chart-container {
+  min-width: 1200px; /* Adjust based on your data */
+  height: 250px; /* Adjust as necessary */
+}
