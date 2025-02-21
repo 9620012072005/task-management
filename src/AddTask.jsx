@@ -22,7 +22,7 @@ const GradientCard = ({
 
   return (
     <div
-      className=" sm:w-[10%] w-full  rounded-lg shadow-lg p-4 sm:p-5 lg:p-6 flex flex-col transition-transform transform hover:scale-105 hover:shadow-2xl"
+      className=" w-full  rounded-lg shadow-lg p-4 sm:p-5 lg:p-6 flex flex-col transition-transform transform hover:scale-105 hover:shadow-2xl"
       style={{ background: gradient }}
     >
       <div className="flex-1 mb-4">
