@@ -11,7 +11,8 @@ import {
   Tooltip,
   Legend,
   PointElement, // Register PointElement
-  LineElement,  // Register LineElement
+  LineElement,
+  LineController// Register LineElement
 } from 'chart.js';
 import { useParams } from "react-router-dom";
 
@@ -24,7 +25,8 @@ ChartJS.register(
   Tooltip,
   Legend,
   PointElement, // Ensure PointElement is registered
-  LineElement   // Ensure LineElement is registered
+  LineElement,
+  LineController// Ensure LineElement is registered
 );
 
 const TaskGraph = () => {
