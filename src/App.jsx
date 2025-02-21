@@ -9,7 +9,7 @@ import Menu from "./Menu";
 import ProjectList from "./Projects";
 import CompanyList from "./Company";
 import TaskTable from "./Pivot"; 
-import TaskGraph from "./taskGraph";
+import TaskGraph from "./TaskGraph";
 import Kanban from "./Kanban";
 
 // import Useravatarupload from "./users/Useravatarupload";
